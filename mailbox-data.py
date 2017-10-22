@@ -3,8 +3,6 @@ import mailbox
 import csv
 import argparse
 
-results = {}
-
 class MailBoxDataProcessor:
 	def __init__(self, path):
 		self.results = {}
